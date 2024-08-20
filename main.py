@@ -25,5 +25,3 @@ elements = driver.find_elements("xpath","//*[h3]")
 data = [element.text for element in elements]
 print (data)
 driver.close()
-
-print ('dddd')
